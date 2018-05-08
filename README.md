@@ -1,7 +1,7 @@
 Sign an assembly using a X509 certificate.
 
 Step 1:
-Creating a test X509 certificate: 
+Create a test X509 certificate: 
 makecert.exe -r -pe -ss MY -sky exchange -n CN=TestCertAks CodeSign.cer   
 
 Step 2:
